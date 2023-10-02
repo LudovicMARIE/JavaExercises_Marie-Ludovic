@@ -17,7 +17,7 @@ public class P2 {
         return -1;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         //Exercice 1
         ArrayList<Integer> stock = new ArrayList<Integer>();
