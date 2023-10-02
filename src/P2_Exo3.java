@@ -1,0 +1,5 @@
+public class P2_Exo3 {
+    public static void main(String[] args) {
+        
+    }
+}
