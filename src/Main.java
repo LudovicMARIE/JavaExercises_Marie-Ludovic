@@ -79,5 +79,21 @@ public class Main {
             temp = i4 * 5;
             System.out.println(i4+" x 5 = "+temp);
         }
+
+        System.out.println(" ");
+        System.out.println(" ");
+
+        //exercice 8
+        System.out.println("Exercice 8");
+        String[] colors= {"rouge","bleu","jaune"};
+        for (String color: colors){
+            if (color == "bleu"){
+                System.out.println("La couleur pref de Louis est le "+ color);
+            }else if (color == "rouge"){
+                System.out.println("La couleur pref de André est le "+ color);
+            }else if (color == "jaune"){
+                System.out.println("La couleur pref de Jean est le "+ color);
+            }
+        }
     }
 }
