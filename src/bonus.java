@@ -8,13 +8,11 @@ public class bonus {
         int height = 1;
         for(int a = 0;a<h;a++){
             for (int i = 0; i < height+3; i++) {
-                for (int j = 0; j < height + 3 - i - a + (h*3) - (a*2) - (a/2); j++) {
+                for (int j = 0; j < height - i - a + (h*h) - (a*2) - (a/2); j++) {
                     System.out.print(" ");
-
                 }
 
                 for (int k = 0; k < (2 * i + 1 - (k%2) + (a*5)); k++){
-
                     System.out.print("*");
                 }
 
@@ -23,7 +21,7 @@ public class bonus {
             height=height+1;
         }
         for(int tronc = 0;tronc<h;tronc++){
-            for (int spacetronc = 0; spacetronc<(h*3);spacetronc++){
+            for (int spacetronc = 0; spacetronc<(h*h);spacetronc++){
                 System.out.print(" ");
             }
             for(int tronc2 = 0;tronc2<h;tronc2++){

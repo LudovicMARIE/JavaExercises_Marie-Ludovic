@@ -1,6 +1,7 @@
 import java.sql.Array;
 import java.util.ArrayList;
 
+
 public class P3_exo5 {
     private static Integer averageCalc(ArrayList<Integer> array){
         int sum=0;

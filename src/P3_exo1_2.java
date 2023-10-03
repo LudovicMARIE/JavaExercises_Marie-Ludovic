@@ -6,7 +6,7 @@ public class P3_exo1_2 {
         int i;
         for (i=min;i<=max;i++){
             if ((i % 3 == 0) && (i % 5 == 0)){
-                System.out.print("Fizz Buzz ");
+                System.out.print("FizzBuzz ");
             }else if(i % 3 == 0){
                 System.out.print("Fizz ");
             }else if(i % 5 == 0){
